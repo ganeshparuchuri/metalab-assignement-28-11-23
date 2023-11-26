@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.HomeContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  overflow: auto;
+  margin-top: 80px;
+}
+.register-login-container {
+  background-color: rgba(245, 245, 245, 1);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 50vw;
+}
+.register-login-container input {
+  width: 70%;
+  min-height: 64px;
+  outline: none;
+  border-radius: 9px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.register-login-container button{
+  background-color: rgba(25, 121, 187, 1);
+  width: 70%;
+  border-radius: 10px;
+  padding: 6px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  min-height: 46px;
+}
+/* Add this to your CSS file */
+.error-message {
+  color: red;
+}
+
+
+h1 {
+  color: #333;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+.uploadCsvinput{
+  border-radius: 7px;
+}
+.mainclass{
+  background-image: linear-gradient(rgba(212, 236, 247, 1), rgba(217, 231, 238, 0.48));
+  height: 100vh;
+  width: 100vw;
+}
+.header-class{
+  box-shadow: 2px 2px 5px rgba(255, 255, 255, 1);
+  width: 100%;
+  height: 80px;
+  background-color: rgba(11, 44, 60, 1);
+}
+.header-class h4{
+  color: white;
+}
